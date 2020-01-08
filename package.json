@@ -1,0 +1,17 @@
+{
+  "name": "promises-vs-async",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start" : "npm run compile && node dist/app.js",
+    "compile" : "tsc -p .",
+    "compile-interactive" : "tsc -w -p ."
+  },
+  "author": "heraldovalenti@gmail.com",
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.7.4"
+  }
+}
